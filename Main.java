@@ -1,9 +1,6 @@
 package Proyecto_Terminado;
-
 import java.util.Scanner;
 
-	//TODO: 1) Solo dos operaciones: retirar y transferir. Registrar ID_transaccion, fecha, tipo y monto. Para transferencias tambien cuentaDestino
-	//		2) Crear ticket
 public class Main {
 	static Scanner entrada = new Scanner(System.in);
 
