@@ -1,6 +1,10 @@
 package Proyecto_Terminado;
 
 public class Deposito extends Clase_Abstracta {
+	
+	public Deposito() {
+		
+	}
 
 	@Override
 	public void Transacciones() {

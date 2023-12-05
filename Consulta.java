@@ -1,6 +1,10 @@
 package Proyecto_Terminado;
 
 public class Consulta extends Clase_Abstracta {
+	
+	public Consulta() {
+		
+	}
 
 	@Override
 	public void Transacciones() {

@@ -1,6 +1,10 @@
 package Proyecto_Terminado;
 
 public class Transferencia extends Clase_Abstracta {
+	
+	public Transferencia() {
+		
+	}
 
 	@Override
 	public void Transacciones() {

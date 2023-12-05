@@ -1,6 +1,10 @@
 package Proyecto_Terminado;
 
 public class Retiro extends Clase_Abstracta {
+	
+	public Retiro() {
+		
+	}
 
 	@Override
 	public void Transacciones() {
