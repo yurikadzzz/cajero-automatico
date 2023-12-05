@@ -17,7 +17,7 @@ public class Retiro extends Clase_Abstracta {
 			System.out.println("====================================");
 			System.out.println("=================BBVA===============");
 			System.out.println("				Debito				");
-			System.out.println("Se relalizo una Consulta el 31/10/2023");
+			System.out.println("Se realizó una Consulta el 31/10/2023");
 			System.out.println("Retiraste : " + retiro);
 			System.out.println("Tu saldo actual es: " + getSaldo());
 			System.out.println("====================================");

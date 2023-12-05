@@ -18,17 +18,15 @@ public abstract class Clase_Abstracta implements Clase_Interfaz {
 		String Nombre = "";
 		do {
 			do {
-				System.out.println(" Buenas tardes esta en un cajero automatico de BBVA");
+				System.out.println(" Buenas tardes esta en un cajero automatico de BBVA. Culiacán, Sinaloa");
 				System.out.println(" Hoy es 31/10/2023");
 				System.out.println(" Porfavor seleccione una opción:");
-				System.out.println("    1. Consulta de saldo.");
-				System.out.println("    2. Retiro de efectivo.");
-				System.out.println("    3. Deposito de efectivo.");
-				System.out.println("    4. Hacer una transferencia");
-				System.out.println("    5. Salir.");
+				System.out.println("    1. Retiro de efectivo.");
+				System.out.println("    2. Hacer una transferencia");
+				System.out.println("    3. Salir.");
 				seleccion = entrada.nextInt();
 
-				if (seleccion >= 1 && seleccion <= 5) {
+				if (seleccion >= 1 && seleccion <= 3) {
 					bandera = 1;
 				} else {
 					System.out.println("=================================================");
@@ -38,18 +36,12 @@ public abstract class Clase_Abstracta implements Clase_Interfaz {
 			} while (bandera == 0);
 
 			if (seleccion == 1) {
-				Clase_Abstracta mensajero = new Consulta();
-				mensajero.Transacciones();
-			} else if (seleccion == 2) {
 				Clase_Abstracta mensajero = new Retiro();
 				mensajero.Transacciones();
-			} else if (seleccion == 3) {
-				Clase_Abstracta mensajero = new Deposito();
-				mensajero.Transacciones();
-			} else if (seleccion == 4) {
+			} else if (seleccion == 2) {
 				Clase_Abstracta mensajero = new Transferencia();
 				mensajero.Transacciones();
-			} else if (seleccion == 5) {
+			} else if (seleccion == 3) {
 				System.out.println("==========================");
 				System.out.println("Gracias, vuelva pronto.");
 				System.out.println("==========================");
